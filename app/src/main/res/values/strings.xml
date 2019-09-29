@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Convolution</string>
+    <string name="unprocessed_image">Unprocessed Image</string>
+    <string name="processed_image">Processed Image</string>
 </resources>

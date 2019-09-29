@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UnusedResources">
+
+    <array name="images">
+        <item>logo</item>
+        <item>secrets</item>
+    </array>
+
+    <array name="filters">
+        <item>identity</item>
+        <item>box_blur</item>
+        <item>gausian_blur_3</item>
+        <item>gausian_blur_5</item>
+        <item>edge_detection</item>
+        <item>sharpen</item>
+        <item>unsharp_mask</item>
+    </array>
+
+    <string name="secrets">Secrets</string>
+    <string name="logo">Styling Android</string>
+
+    <drawable name="secrets">@drawable/secrets</drawable>
+    <drawable name="logo">@drawable/logo</drawable>
+
+    <string name="identity">Identity</string>
+    <string name="box_blur">Box Blur</string>
+    <string name="gausian_blur_3">Gausian Blur 3x3</string>
+    <string name="gausian_blur_5">Gausian Blur 5x5</string>
+    <string name="edge_detection">Edge Detector</string>
+    <string name="sharpen">Sharpen</string>
+    <string name="unsharp_mask">Unsharp Mask</string>
+
+    <color name="identity">@android:color/transparent</color>
+    <color name="box_blur">@android:color/transparent</color>
+    <color name="gausian_blur_3">@android:color/transparent</color>
+    <color name="gausian_blur_5">@android:color/transparent</color>
+    <color name="edge_detection">@android:color/black</color>
+    <color name="sharpen">@android:color/transparent</color>
+    <color name="unsharp_mask">@android:color/transparent</color>
+
+    <array name="identity">
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>1.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+    </array>
+
+    <array name="edge_detection">
+        <item>-1.0</item>
+        <item>-1.0</item>
+        <item>-1.0</item>
+        <item>-1.0</item>
+        <item>8.0</item>
+        <item>-1.0</item>
+        <item>-1.0</item>
+        <item>-1.0</item>
+        <item>-1.0</item>
+    </array>
+
+    <array name="box_blur">
+        <item>0.1111111111</item>
+        <item>0.1111111111</item>
+        <item>0.1111111111</item>
+        <item>0.1111111111</item>
+        <item>0.1111111111</item>
+        <item>0.1111111111</item>
+        <item>0.1111111111</item>
+        <item>0.1111111111</item>
+        <item>0.1111111111</item>
+    </array>
+
+    <array name="gausian_blur_3">
+        <item>0.0625</item>
+        <item>0.125</item>
+        <item>0.0625</item>
+        <item>0.125</item>
+        <item>0.25</item>
+        <item>0.125</item>
+        <item>0.0625</item>
+        <item>0.125</item>
+        <item>0.0625</item>
+    </array>
+
+    <array name="gausian_blur_5">
+        <item>0.00390625</item>
+        <item>0.015625</item>
+        <item>0.0234375</item>
+        <item>0.015625</item>
+        <item>0.00390625</item>
+
+        <item>0.015625</item>
+        <item>0.0625</item>
+        <item>0.09375</item>
+        <item>0.0625</item>
+        <item>0.015625</item>
+
+        <item>0.0234375</item>
+        <item>0.09375</item>
+        <item>0.140625</item>
+        <item>0.09375</item>
+        <item>0.0234375</item>
+
+        <item>0.015625</item>
+        <item>0.0625</item>
+        <item>0.09375</item>
+        <item>0.0625</item>
+        <item>0.015625</item>
+
+        <item>0.00390625</item>
+        <item>0.015625</item>
+        <item>0.0234375</item>
+        <item>0.015625</item>
+        <item>0.00390625</item>
+    </array>
+
+    <array name="sharpen">
+        <item>0.0</item>
+        <item>-1.0</item>
+        <item>0.0</item>
+        <item>-1.0</item>
+        <item>5.0</item>
+        <item>-1.0</item>
+        <item>0.0</item>
+        <item>-1.0</item>
+        <item>0.0</item>
+    </array>
+
+    <array name="unsharp_mask">
+        <item>-0.00390625</item>
+        <item>-0.015625</item>
+        <item>-0.0234375</item>
+        <item>-0.015625</item>
+        <item>-0.00390625</item>
+
+        <item>-0.015625</item>
+        <item>-0.0625</item>
+        <item>-0.09375</item>
+        <item>-0.0625</item>
+        <item>-0.015625</item>
+
+        <item>-0.0234375</item>
+        <item>-0.09375</item>
+        <item>1.859375</item>
+        <item>-0.09375</item>
+        <item>-0.0234375</item>
+
+        <item>-0.015625</item>
+        <item>-0.0625</item>
+        <item>-0.09375</item>
+        <item>-0.0625</item>
+        <item>-0.015625</item>
+
+        <item>-0.00390625</item>
+        <item>-0.015625</item>
+        <item>-0.0234375</item>
+        <item>-0.015625</item>
+        <item>-0.00390625</item>
+    </array>
+</resources>

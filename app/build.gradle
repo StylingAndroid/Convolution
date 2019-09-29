@@ -19,6 +19,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+        debug {}
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -37,6 +38,8 @@ dependencies {
     implementation Libraries.appCompat
     implementation Libraries.ktxCore
     implementation Libraries.constraintLayout
+    implementation Libraries.coroutinesCore
+    implementation Libraries.coroutinesAndroid
 }
 
 detekt {

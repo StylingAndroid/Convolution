@@ -2,7 +2,7 @@ const val kotlinVersion = "1.3.50"
 
 object BuildPlugins {
     object Version {
-        const val androidBuildToolsVersion = "3.6.0-alpha11"
+        const val androidBuildToolsVersion = "3.6.0-alpha12"
     }
 
     const val androidGradlePlugin = "com.android.tools.build:gradle:${Version.androidBuildToolsVersion}"
@@ -25,10 +25,13 @@ object Libraries {
         const val appCompat = "1.1.0"
         const val ktx = "1.2.0-alpha04"
         const val constraintLayout = "2.0.0-beta2"
+        const val coroutines = "1.3.0-RC2"
     }
 
     const val kotlinStdLib = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
     const val appCompat = "androidx.appcompat:appcompat:${Versions.appCompat}"
     const val ktxCore = "androidx.core:core-ktx:${Versions.ktx}"
     const val constraintLayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintLayout}"
+    const val coroutinesCore = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}"
+    const val coroutinesAndroid = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines}"
 }
